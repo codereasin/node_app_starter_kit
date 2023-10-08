@@ -1,16 +1,33 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node app.js"
-  },
-  "keywords": [],
-  "author": "Mohammad Easin <codereasin@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.8.3",
-    "typescript": "^5.2.2"
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node app.js",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . -write",
+        "lint:fix": "eslint . --fix",
+        "lint": "eslint .",
+        "prepare": "husky install"
+    },
+    "keywords": [],
+    "author": "Mohammad Easin <codereasin@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.8.3",
+        "@typescript-eslint/eslint-plugin": "^6.7.4",
+        "@typescript-eslint/parser": "^6.7.4",
+        "eslint": "^8.51.0",
+        "eslint-config-prettier": "^9.0.0",
+        "husky": "^8.0.3",
+        "prettier": "3.0.3",
+        "typescript": "^5.2.2"
+    },
+    "lint-staged": {
+        "*.ts": [
+            "npm run lint:fix",
+            "npm run format:fix"
+        ]
+    }
 }
