@@ -51,19 +51,19 @@ Please follow the below instructions to run different branches of this repositor
 
 ### 🔗 Connected to Me
 <div  style="display:flex; align-items: center; justify-content: center;">
-    <a href="https://www.facebook.com/easinwebpro/">
+    <a href="https://www.facebook.com/codereasin/">
        <img  alt="FB" width="30px" src="https://img.icons8.com/fluent/2x/facebook-new.png" />
      </a>
-     <a href="https://linkedin.com/in/easinwebpro">
+     <a href="https://linkedin.com/in/codereasin">
         <img  alt="Linkdein" width="27px" src="https://avatars.githubusercontent.com/u/357098?s=200&v=4" />
      </a>
-       <a href="https://twitter.com/easinwebpro">
+       <a href="https://twitter.com/codereasin">
          <img alt="Twitter" width="27px" src="https://avatars.githubusercontent.com/u/50278?s=200&v=4" />
        </a>
-      <a href="https://www.hackerrank.com/easinwebpro">
+      <a href="https://www.hackerrank.com/codereasin">
         <img  alt="HackerRank" width="27px" src="https://avatars.githubusercontent.com/u/7596827?s=460&v=4" />
       </a>
-      <a href="https://app.codesignal.com/profile/easinwebpro">
+      <a href="https://app.codesignal.com/profile/codereasin">
         <img  alt="CodeSignal" width="27px" src="https://avatars.githubusercontent.com/u/12802966?s=200&v=4" />
       </a>
 <div/>
